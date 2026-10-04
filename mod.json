@@ -1,17 +1,20 @@
 {
-	"geode": "$GEODE_VERSION",
-	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
-	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v5.10.1."
-	}
+    "geode": "4.0.0",
+    "id": "yourname.ai_search",
+    "version": "1.0.0",
+    "name": "AI Level Search",
+    "developer": "YourName",
+    "description": "Searches for levels based on an AI prompt.",
+    "dependencies": [],
+    "permissions": [
+        "network-access"
+    ],
+    "settings": {
+        "groq-api-key": {
+            "name": "Groq API Key",
+            "description": "Paste your secret Groq API key here. Keep it private!",
+            "type": "string",
+            "default": ""
+        }
+    }
 }
