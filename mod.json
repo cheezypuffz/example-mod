@@ -1,17 +1,14 @@
 {
-	"geode": "$GEODE_VERSION",
-	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
-	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+	"geode": "4.0.0",
+	"id": "yourname.my_custom_button",
+	"version": "1.0.0",
+	"name": "Mobile Custom Button",
+	"developer": "YourName",
+	"description": "Adds a cool custom button to the main menu!",
+	"dependencies": [
+		{
+			"id": "geode.loader",
+			"version": ">=4.0.0"
+		}
+	]
 }
